@@ -51,7 +51,7 @@ const About = () => {
       </motion.p>
 
       {/* <div> Adding : justify-center */}
-      <div className="mt-20 flex flex-wrap gap-10 lg:justify-center">
+      <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard 
             key={service.title}
