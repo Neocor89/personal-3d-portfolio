@@ -12,6 +12,9 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
+// TODO : 
+//+ RESTART HERE 👇
+
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
@@ -60,10 +63,10 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
+        <p className={`${styles.sectionSubText} lg:text-center`}>
           What I have done so far
         </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
+        <h2 className={`${styles.sectionHeadText} lg:text-center`}>
           Work Experience.
         </h2>
       </motion.div>
@@ -84,6 +87,6 @@ const Experience = () => {
 
 export default SectionWrapper(Experience, "work");
 /* 
-A 12:00, utilisez react-parallax-tilt au lieu de react-tilt et supprimez --legacy-peer-deps de la commande.
+utilisez react-parallax-tilt au lieu de react-tilt et supprimez --legacy-peer-deps de la commande.
 De plus, partout où vous utilisez : import Tilt from "react-tilt", remplacez-le par votre nouvelle bibliothèque comme ceci : import Tilt from "react-parallax-tilt".
 */
