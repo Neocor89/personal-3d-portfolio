@@ -6,9 +6,6 @@ import { SectionWrapper } from "../hoc"
 import { projects } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
 
-// Green -> #0b6b5a || #30695f / Violet -> #3d1c54 || #321745
-//bg-tertiary lg:
-
 const ProjectCard = (
     {
       index, name, description, 
@@ -80,7 +77,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eum ducimus aut explicabo culpa provident? Adipisci voluptate deleniti cumque repellat tenetur voluptatum dolores labore. Quis velit deserunt minima veritatis in beatae accusamus enim illo ullam officiis. Repudiandae officiis eaque a.
+          Whether it was for graduation or over the years, I've had the opportunity to work on several exciting projects, using a variety of technologies including React, React Native, Nextjs, SQL, MongoDB. Some examples of my work include.
         </motion.p>
       </div>
 

@@ -47,10 +47,9 @@ const About = () => {
         variants={fadeIn("","", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia provident excepturi asperiores nisi dignissimos ab assumenda, repellendus tempora, dicta, nesciunt culpa sed facilis deleniti quo omnis ad ratione. Qui natus rem veritatis obcaecati consectetur, unde blanditiis aperiam inventore at magni?
+        Hello and welcome to my portfolio! My name is Ben, and I'm a software developer with expertise in React, React Native, Nextjs, databases, UI, UX, and I love 3D interfaces. I've worked on a variety of projects in these technologies, and I'm excited to share my experience with you.
       </motion.p>
 
-      {/* <div> Adding : justify-center */}
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard 
