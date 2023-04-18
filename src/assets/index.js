@@ -23,12 +23,19 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import opencr from "./company/opencr.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import spotify from "./spotify.png";
+import youtube from "./youtube.png";
+import netflix from "./netflix.png";
+import agenceseo from "./agenceseo.png";
+import astro from "./astro.png";
+import bank from "./bank.png";
+import booki from "./booki.png";
+import nftmarket from "./nftmarket.png";
+import airbnb from "./airbnb.png";
+import jobmobile from "./jobmobile.png";
 
 export {
   logo,
@@ -54,9 +61,16 @@ export {
   threejs,
   meta,
   shopify,
-  starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  opencr,
+  spotify,
+  youtube,
+  netflix,
+  agenceseo,
+  astro,
+  bank,
+  booki,
+  nftmarket,
+  airbnb,
+  jobmobile,
 };

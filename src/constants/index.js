@@ -16,13 +16,20 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
   tesla,
+  opencr,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  spotify,
   threejs,
+  youtube,
+  netflix,
+  agenceseo,
+  astro,
+  bank,
+  booki,
+  nftmarket,
+  airbnb,
+  jobmobile,
 } from "../assets";
 
 //: File of All Work Projects
@@ -118,9 +125,9 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full stack Developer",
+    company_name: "Openclassrooms",
+    icon: opencr,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -200,7 +207,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Youtube Clone",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -209,7 +216,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "restapi",
         color: "green-text-gradient",
       },
       {
@@ -217,11 +224,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: youtube,
+    source_code_link: "https://github.com/Neocor89/youtube-clone",
   },
   {
-    name: "Job IT",
+    name: "Spotify Clone",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -234,15 +241,129 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: spotify,
+    source_code_link: "https://github.com/Neocor89/spotify-colne",
   },
   {
-    name: "Trip Guide",
+    name: "Netflix Clone",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: netflix,
+    source_code_link: "https://github.com/Neocor89/netflix-clone",
+  },
+  {
+    name: "Astro Website",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "astro",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: astro,
+    source_code_link: "https://github.com/Neocor89/astro-website-clone",
+  },
+  {
+    name: "Bank Website",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bank,
+    source_code_link: "https://github.com/Neocor89/netflix-clone",
+  },
+  {
+    name: "Booki Reservation",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: booki,
+    source_code_link: "https://github.com/Neocor89/netflix-clone",
+  },
+  {
+    name: "Web Agency",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "seo",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: agenceseo,
+    source_code_link: "https://github.com/Neocor89/netflix-clone",
+  },
+  {
+    name: "NFT Marketplace",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "thirdweb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nftmarket,
+    source_code_link: "https://github.com/Neocor89/netflix-clone",
+  },
+  {
+    name: "Airbnb Website",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -251,16 +372,38 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: airbnb,
+    source_code_link: "https://github.com/Neocor89/netflix-clone",
+  },
+  {
+    name: "Job Search Mobile",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "axios",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobmobile,
+    source_code_link:
+      "https://expo.dev/@bendevweb/jobs-mobile-app?serviceType=classic&distrribution=expo-go",
   },
 ];
 

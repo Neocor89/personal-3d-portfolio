@@ -83,7 +83,3 @@ const Experience = () => {
 };
 
 export default SectionWrapper(Experience, "work");
-/* 
-utilisez react-parallax-tilt au lieu de react-tilt et supprimez --legacy-peer-deps de la commande.
-De plus, partout où vous utilisez : import Tilt from "react-tilt", remplacez-le par votre nouvelle bibliothèque comme ceci : import Tilt from "react-parallax-tilt".
-*/
