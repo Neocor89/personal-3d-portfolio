@@ -3,33 +3,11 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
   meta,
   tesla,
   opencr,
   shopify,
-  spotify,
   threejs,
-  youtube,
-  netflix,
-  agenceseo,
-  astro,
-  bank,
-  booki,
-  nftmarket,
-  airbnb,
-  jobmobile,
 } from "../assets";
 
 //: File of All Work Projects
@@ -71,39 +49,39 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
-    icon: html,
+    icon: "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025585/html_yj4zvt.png",
   },
   {
     name: "CSS 3",
-    icon: css,
+    icon: "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025585/css_vuja5y.png",
   },
   {
     name: "JavaScript",
-    icon: javascript,
+    icon: "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025585/javascript_nf1cx4.png",
   },
   {
     name: "TypeScript",
-    icon: typescript,
+    icon: "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025599/typescript_fohslg.png",
   },
   {
     name: "React JS",
-    icon: reactjs,
+    icon: "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025599/reactjs_vubinj.png",
   },
   {
     name: "Redux Toolkit",
-    icon: redux,
+    icon: "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025599/redux_e4dgrs.png",
   },
   {
     name: "Tailwind CSS",
-    icon: tailwind,
+    icon: "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025599/tailwind_z4gihl.png",
   },
   {
     name: "Node JS",
-    icon: nodejs,
+    icon: "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025599/nodejs_dgw1yg.png",
   },
   {
     name: "MongoDB",
-    icon: mongodb,
+    icon: "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025599/mongodb_p4pmhk.png",
   },
   {
     name: "Three JS",
@@ -111,15 +89,15 @@ const technologies = [
   },
   {
     name: "git",
-    icon: git,
+    icon: "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025585/git_v0elzy.png",
   },
   {
     name: "figma",
-    icon: figma,
+    icon: "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025585/figma_qyblca.png",
   },
   {
     name: "docker",
-    icon: docker,
+    icon: "https://res.cloudinary.com/dwoifuutn/image/upload/v1682027438/docker_epmphu.png",
   },
 ];
 
@@ -185,7 +163,8 @@ const testimonials = [
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image:
+      "https://res.cloudinary.com/dwoifuutn/image/upload/v1681847520/testim-chur-del_ulltxe.png",
   },
   {
     testimonial:
@@ -204,6 +183,9 @@ const testimonials = [
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
+
+// TODO
+//+ RESTART HERE 👇
 
 const projects = [
   {
@@ -224,7 +206,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: youtube,
+    image:
+      "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025564/youtube_ntayoq.png",
     source_code_link: "https://github.com/Neocor89/youtube-clone",
   },
   {
@@ -245,7 +228,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: spotify,
+    image:
+      "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025564/spotify_tlt8jz.png",
     source_code_link: "https://github.com/Neocor89/spotify-colne",
   },
   {
@@ -266,7 +250,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: netflix,
+    image:
+      "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025481/netflix_gsu6vl.png",
     source_code_link: "https://github.com/Neocor89/netflix-clone",
   },
   {
@@ -283,7 +268,8 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: astro,
+    image:
+      "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025379/astro_vzz26v.png",
     source_code_link: "https://github.com/Neocor89/astro-website-clone",
   },
   {
@@ -300,24 +286,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: bank,
-    source_code_link: "https://github.com/Neocor89/netflix-clone",
-  },
-  {
-    name: "Booki Reservation",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: booki,
+    image:
+      "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025379/bank_ixd1ee.png",
     source_code_link: "https://github.com/Neocor89/netflix-clone",
   },
   {
@@ -338,7 +308,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: agenceseo,
+    image:
+      "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025379/agenceseo_rkucdy.png",
     source_code_link: "https://github.com/Neocor89/netflix-clone",
   },
   {
@@ -359,7 +330,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: nftmarket,
+    image:
+      "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025481/nftmarket_che9g3.png",
     source_code_link: "https://github.com/Neocor89/netflix-clone",
   },
   {
@@ -380,7 +352,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: airbnb,
+    image:
+      "https://res.cloudinary.com/dwoifuutn/image/upload/v1682025379/airbnb_ptbkxq.png",
     source_code_link: "https://github.com/Neocor89/netflix-clone",
   },
   {
@@ -401,7 +374,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobmobile,
+    image:
+      "https://res.cloudinary.com/dwoifuutn/image/upload/v1682026568/jobmobile_lpseok.png",
     source_code_link:
       "https://expo.dev/@bendevweb/jobs-mobile-app?serviceType=classic&distrribution=expo-go",
   },
