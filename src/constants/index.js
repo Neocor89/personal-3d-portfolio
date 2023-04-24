@@ -155,24 +155,21 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Ben does.",
     name: "Adrien B",
     designation: "COO",
-    company: "DEF Corp",
+    company: "Association",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "After Ben optimized our website, our traffic increased by 35%. We can't thank them enough!",
+    name: "Lisa W",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "Enterprise",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
-
-// TODO --> Continue change data of constant file
-//+ RESTART HERE 👇
 
 const projects = [
   {
