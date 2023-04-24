@@ -1,14 +1,4 @@
-import {
-  mobile,
-  backend,
-  creator,
-  web,
-  meta,
-  tesla,
-  opencr,
-  shopify,
-  threejs,
-} from "../assets";
+import { mobile, backend, creator, web, opencr, threejs } from "../assets";
 
 //: File of All Work Projects
 
@@ -41,7 +31,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "NFT's Creator",
     icon: creator,
   },
 ];
@@ -103,50 +93,47 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Frontend Developer",
+    company_name: "Churreria Deliciosa",
+    icon: "https://res.cloudinary.com/dwoifuutn/image/upload/v1681847520/testim-chur-del_ulltxe.png",
+    iconBg: "#383E56",
+    date: "Jan 2023 - March 2023",
+    points: [
+      "Development of a web application using Javascript and PHP",
+      "Collaboration with the client in order to apply the design chosen by the design, implementation of a final responsive product and compatible with the different browsers available.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
     title: "Full stack Developer",
+    company_name: "Openclassrooms",
+    icon: opencr,
+    iconBg: "#E6DEDD",
+    date: "July 2022 - Nov 2022",
+    points: [
+      "Development of a Fullstack web application using Reactjs and a SQL database, creation of the application design.",
+      "Collaboration with the client to respect the specifications, concerning the visual identity of the company and the security of the database.",
+      "Implementing responsive design and responsive product and compatible with the different browsers available.",
+    ],
+  },
+  {
+    title: "Backend Developer",
     company_name: "Openclassrooms",
     icon: opencr,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2022 - June 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Development and implementation of a noSQL database, verification and registration of user data, data security, encryption of passwords.",
+      "Collaborating with teams of other developers to create high-quality products.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Frontend Developer",
+    company_name: "Openclassrooms",
+    icon: opencr,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Aug 2021 - Dec 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -159,17 +146,17 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Ben is an excellent web developer, with a real concern for customer and user satisfaction.",
+    name: "Delfim P",
+    designation: "MNG",
+    company: "Churreria Deliciosa",
     image:
       "https://res.cloudinary.com/dwoifuutn/image/upload/v1681847520/testim-chur-del_ulltxe.png",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+    name: "Adrien B",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
@@ -184,7 +171,7 @@ const testimonials = [
   },
 ];
 
-// TODO
+// TODO --> Continue change data of constant file
 //+ RESTART HERE 👇
 
 const projects = [

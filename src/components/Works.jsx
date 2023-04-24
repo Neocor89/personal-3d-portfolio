@@ -13,7 +13,7 @@ const ProjectCard = (
     }
   ) => {
     return (
-      <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+      <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.50)}>
         <Tilt
           options={{
             max: 45,
@@ -34,7 +34,7 @@ const ProjectCard = (
                 onClick={() => window.open(source_code_link, "_blank")}
                 className="bg-gradient-to-t from-[#493e82] to-[#69ccab] w-8 h-8 md:w-10 md:h-10 rounded-full flex justify-center items-center cursor-pointer"
               >
-                <img src={github} alt="github" className="w-1/2 h-1/2 object-contain" />
+                <img src={github} alt="github" title="View code & Demo" className="w-1/2 h-1/2 object-contain" />
               </div>
             </div>
           </div>
