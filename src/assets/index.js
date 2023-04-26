@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import demo from "./demo.png";
 
 import threejs from "./tech/threejs.svg";
 import opencr from "./company/opencr.png";
@@ -19,6 +20,7 @@ export {
   github,
   menu,
   close,
+  demo,
   threejs,
   opencr,
 };

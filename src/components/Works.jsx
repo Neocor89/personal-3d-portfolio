@@ -2,18 +2,19 @@ import { motion } from "framer-motion"
 import { Tilt } from "react-tilt"
 import { styles } from "../styles"
 import { github } from "../assets"
+import { demo } from "../assets"
 import { SectionWrapper } from "../hoc"
 import { projects } from "../constants"
-import { fadeIn, textVariant } from "../utils/motion"
+// import { fadeIn, textVariant } from "../utils/motion"
 
 const ProjectCard = (
     {
       index, name, description, 
-     tags, image, source_code_link 
+     tags, image, source_code_link, demo_project, 
     }
   ) => {
     return (
-      <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.50)}>
+      <motion.div>
         <Tilt
           options={{
             max: 45,
@@ -22,7 +23,7 @@ const ProjectCard = (
           }}
           className="bg-gradient-to-t from-[#1d1836] to-[#362c62] p-5 md:p-4 rounded-2xl sm:w-[360px] w-full"
         >
-          <div className="relative w-full h-[230px]">
+          <div className="relative w-full h-[210px]">
             <img 
               src={image} 
               alt={name} 
@@ -30,11 +31,18 @@ const ProjectCard = (
             />
 
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+            <div 
+                onClick={() => window.open(demo_project, "_blank")}
+                className="bg-gradient-to-t from-[#493e82] to-[#69ccab] w-8 h-10 md:w-10 md:h-10 rounded-full flex justify-center items-center cursor-pointer mr-2"
+              >
+                <img src={demo} alt="demo project" title="Demo Project" className="w-1/2 h-1/2 object-contain" />
+              </div>
+
               <div 
                 onClick={() => window.open(source_code_link, "_blank")}
                 className="bg-gradient-to-t from-[#493e82] to-[#69ccab] w-8 h-8 md:w-10 md:h-10 rounded-full flex justify-center items-center cursor-pointer"
               >
-                <img src={github} alt="github" title="View code & Demo" className="w-1/2 h-1/2 object-contain" />
+                <img src={github} alt="github" title="View Code" className="w-1/2 h-1/2 object-contain" />
               </div>
             </div>
           </div>
@@ -59,11 +67,11 @@ const ProjectCard = (
     )
 }
 
-// bg-gradient-to-t from-[#1d1836] to-[#362c62]
+
 const Works = () => {
   return (
     <>
-       <motion.div variants={textVariant()}>
+       <motion.div>
         <p className={`${styles.sectionSubText}`}>
           My Work
         </p>
@@ -74,7 +82,6 @@ const Works = () => {
 
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Whether it was for graduation or over the years, I've had the opportunity to work on several exciting projects, using a variety of technologies including React, React Native, Nextjs, SQL, MongoDB. Some examples of my work include.
