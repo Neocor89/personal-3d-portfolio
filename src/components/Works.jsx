@@ -6,7 +6,7 @@ import { demo } from "../assets"
 import { SectionWrapper } from "../hoc"
 import { projects } from "../constants"
 // import { fadeIn, textVariant } from "../utils/motion"
-
+// BEF : w-8 h-8 md:w-10 md:h-10
 const ProjectCard = (
     {
       index, name, description, 
@@ -33,14 +33,14 @@ const ProjectCard = (
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div 
                 onClick={() => window.open(demo_project, "_blank")}
-                className="bg-gradient-to-t from-[#493e82] to-[#69ccab] w-8 h-10 md:w-10 md:h-10 rounded-full flex justify-center items-center cursor-pointer mr-2"
+                className="bg-gradient-to-t from-[#493e82] to-[#69ccab] w-12 h-12 md:w-9 md:h-9 rounded-full flex justify-center items-center cursor-pointer mr-4 md:mr-2"
               >
                 <img src={demo} alt="demo project" title="Demo Project" className="w-1/2 h-1/2 object-contain" />
               </div>
 
               <div 
                 onClick={() => window.open(source_code_link, "_blank")}
-                className="bg-gradient-to-t from-[#493e82] to-[#69ccab] w-8 h-8 md:w-10 md:h-10 rounded-full flex justify-center items-center cursor-pointer"
+                className="bg-gradient-to-t from-[#493e82] to-[#69ccab] w-12 h-12 md:w-9 md:h-9 rounded-full flex justify-center items-center cursor-pointer"
               >
                 <img src={github} alt="github" title="View Code" className="w-1/2 h-1/2 object-contain" />
               </div>
